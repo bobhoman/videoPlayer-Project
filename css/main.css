@@ -1,0 +1,34 @@
+
+/*************Layout***************/
+
+.video-container {
+	width: 100%;
+	max-width: 900px;
+}
+
+p {
+	padding-left: 1.8em;
+	padding-right: 1.8em;
+	line-height: 1.5;
+}
+
+.highlighted {
+	color: #f48f41;
+}
+
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+  p {
+	padding-left: initial;
+	padding-right: initial;
+	line-height: 2;
+  }
+
+  .container {
+  	width: 70%;
+  	margin: 0 auto;
+  	max-width: 900px;
+  }
+}
