@@ -12,10 +12,15 @@ p {
 	line-height: 1.5;
 }
 
+/*************Components***************/
+
 .highlighted {
 	color: #f48f41;
 }
 
+.mejs__player .mejs__controls {
+	background-color: #f46b41;
+}
 
 /*Media Queries*/
 
